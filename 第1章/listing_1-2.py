@@ -1,4 +1,4 @@
-
+#随机猜数字小游戏
 
 import random
 secret = random.randint(1, 99)     
