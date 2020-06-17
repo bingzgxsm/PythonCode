@@ -1,9 +1,4 @@
-# Listing_5-2.py
-# Copyright Warren & Carter Sande, 2013
-# Released under MIT license   http://www.opensource.org/licenses/mit-license.php
-# Version $version  ----------------------------
-
-# What does the comma do?
+# 逗号用来干嘛的？
 
 print "My",
 print "name",
