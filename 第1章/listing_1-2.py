@@ -7,7 +7,7 @@ tries = 0
 print "AHOY!  I'm the Dread Pirate Roberts, and I have a secret!"
 print "It is a number from 1 to 99.  I'll give you 6 tries. "
 
-# Allow up to 6 guesses
+#可以猜6次
 while guess != secret and tries < 6:                
     guess = input("What's yer guess? ")  
     if guess < secret:
@@ -15,9 +15,9 @@ while guess != secret and tries < 6:
     elif guess > secret:
         print "Too high, landlubber!"
 
-    tries = tries + 1            # Use up one try               
+    tries = tries + 1            # 猜的次数递增              
 
-# Print message at end of game
+#最终显示结果
 if guess == secret:                           \
     print "Avast! Ye got it!  Found my secret, ye did!"
 else:
