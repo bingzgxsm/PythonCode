@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 #定义变量First等于5、Second等于3
 First = 5
 Second = 3
